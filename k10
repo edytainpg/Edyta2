@@ -1,10 +1,10 @@
 
-#include "array.h"
-#include 
+#include <conio.h>
+
 #include <unistd.h> /*do funkcji usleep, czyli chwilowego wstrzymania programu*/
 iuks dasfjdasfasdf 
-int main(int argc,p=null;{
-    struct array * array = create();
+rray = create();
+
     wczytajdane(array, argv[1]);
   
     char k, k2;
