@@ -1,6 +1,5 @@
 #include <conio.h>
-#include "array.h"
-#include "gra.h"
+
 #include <unistd.h> /*do funkcji usleep, czyli chwilowego wstrzymania programu*/
 iuks dasfjdasfasdf 
 rray = create();
