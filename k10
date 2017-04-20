@@ -1,6 +1,6 @@
 
 #include "array.h"
-#include "gra.h"
+#include 
 #include <unistd.h> /*do funkcji usleep, czyli chwilowego wstrzymania programu*/
 iuks dasfjdasfasdf 
 int main(int argc, const char * argv[]) {
