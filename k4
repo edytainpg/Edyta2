@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include "array.h"
+#include "gra.h"
+#include <unistd.h> /*do funkcji usleep, czyli chwilowego wstrzymania programu*/
+
+int main(int argc, const char * argv[]) {
+    struct array * array = create();
+    wczytajdane(array, argv[1]);
+    arrprint(array);
+    char k, k2;
+    int d, count = 0, count_max = atoi(argv[3]);
+    while (1){
+      
+        }
+        d = new_generation(array);
+        arrprint(array);
+        if (d == 0)
+            break;
+        usleep(200000);
+        count++;
+    }
+    printf("Czy chcesz zapisać dane? y/n\n");
+    scanf("%c", &k);
+    while (k != 'n' && k != 'y'){
+        printf("Wybrano niepoprawną opcje y/n\n");
+        scanf("%c", &k);
+        if (k != 10){           //j.w.
+            scanf("%c", &k2);
+        }
+    }
+    if (k == 'y')
+        zapiszdane(array, argv[2]);
+    delete(array);
+    return 0;
+}
