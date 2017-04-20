@@ -6,7 +6,7 @@ iuks dasfjdasfasdf
 int main(int argc, const char * argv[]) {
     struct array * array = create();
     wczytajdane(array, argv[1]);
-    arrprint(array);
+  
     char k, k2;
     int d, count = 1, count_max = atoi(argv[3]);
     while (1){
