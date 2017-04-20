@@ -3,8 +3,7 @@
 #include "gra.h"
 #include <unistd.h> /*do funkcji usleep, czyli chwilowego wstrzymania programu*/
 iuks dasfjdasfasdf 
-int main(int argc, const char * argv[]) {
-    struct array * array = create();
+rray = create();
     wczytajdane(array, argv[1]);
     arrprint(array);
     char k, k2;
